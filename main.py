@@ -223,6 +223,7 @@ def main():
         pass
     finally:
         lcd.clear()
+        lcd.set_backlight(False)
         keypad.cleanup()
 
 if __name__ == "__main__":
